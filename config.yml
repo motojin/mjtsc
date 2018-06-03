@@ -1,0 +1,19 @@
+host:
+  - Name: HostA
+    Type: SQLServer
+    Address: 192.168.0.10
+  - Name: HostB
+    Type: SQLServer
+    Address: 192.168.0.11
+# asdf
+
+user:
+  - Domain: AD
+    Username: USERNAME  # USERNAME is environment variable
+    Password: NA        # NA is require password
+  - Domain: motojin
+    Username: admin
+    Password: admin
+  - Domain: motojin
+    Username: user
+    Password: user
